@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coach</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Alan Jordano <span>Coach Pessoal</span></a>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Sobre</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Serviços</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Blog</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+        </ul>
+        <i class="fas fa-bars menu-toggler"></i>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h3>AMBIÇÃO É O PRIMEIRO PASSO PARA O</h3>
+          <h1>SUCESSO</h1>
+          <button class="btn">Agende Já</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <!-- <div class="about-columns"> -->
+      <div class="about-left col-50">
+        <div class="about-text">
+          <hr />
+          <h2>QUEM<br />SOU</h2>
+          <p>
+            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É
+            fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você
+            poderá adicionar o seu próprio conteúdo e trocar fontes.
+          </p>
+          <p>
+            Sinta-se à vontade para arrastar e soltar em qualquer lugar em sua página. Sou
+            um ótimo lugar para você contar sua história e permitir que seus clientes
+            saibam um pouco mais sobre você.
+          </p>
+          <button class="btn">Leia Mais</button>
+        </div>
+      </div>
+      <div class="about-right col-50">
+        <!-- <img src="img/coach.jpg" alt=""> -->
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <section class="help">
+      <div class="container">
+        <hr />
+        <h2>COMO POSSO<br />AJUDAR</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3 class="card-title">Apoio para Casais</h3>
+            <hr class="card-line" />
+            <p class="h-time">1 h 30 min</p>
+            <p class="h-price">R$ 120</p>
+            <button class="btn h-btn">Agendar Já</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Crescimento Pessoal</h3>
+            <hr class="card-line" />
+            <p class="h-time">45 min</p>
+            <p class="h-price">R$ 90</p>
+            <button class="btn h-btn">Agendar Já</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Coaching Particular</h3>
+            <hr class="card-line" />
+            <p class="h-time">1 h</p>
+            <p class="h-price">R$ 70</p>
+            <button class="btn h-btn">Agendar Já</button>
+          </div>
+        </div>
+
+        <button class="btn h-btn-big">Mais Serviços</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="col-40">
+          <hr />
+          <h3>Contato</h3>
+          <address>
+            Av. Bernardino de Campos, 98 <br />
+            São Paulo, SP - 12345-678
+            <p>
+              Tel: (11) 3456-7890<br />
+              Fax: (11) 3456-7890
+            </p>
+            <a href="#">info@meusite.com</a>
+          </address>
+          <div class="socil-m">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="col-60">
+          <form action="">
+            <input type="text" placeholder="Nome" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Telefone" />
+            <textarea placeholder="Digite sua mensagem aqui..."></textarea>
+            <button class="btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <p class="copy">© 2023 por Coach Pessoal.</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      var menu = document.querySelector(".menu");
+      var toggler = document.querySelector(".menu-toggler");
+
+      toggler.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        toggler.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
